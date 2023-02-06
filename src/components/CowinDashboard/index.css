@@ -1,0 +1,55 @@
+.mainContainer {
+  min-height: 100vh;
+  background-color: #161625;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainheading {
+  width: 95%;
+  max-width: 650px;
+  font-size: 25px;
+  color: #2cc6c6;
+  display: flex;
+  align-items: center;
+}
+
+.mainlogo {
+  width: 45px;
+  margin-right: 12px;
+}
+
+.mainpara {
+  width: 95%;
+  max-width: 650px;
+  color: #cbd5e1;
+  font-size: 25px;
+}
+
+.failure-view {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.failure-img {
+  width: 70%;
+  max-width: 650px;
+}
+
+.failureheading {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.loadingContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
