@@ -20,13 +20,9 @@ class CowinDashboard extends Component {
   getData = async () => {
     this.setState({isLoading: 'loading'})
 
-    const options = {
-      method: 'GET',
-    }
-
     const vaccinationDataApiUrl = 'https://apis.ccbp.in/covid-vaccination-data'
 
-    const response = await fetch(vaccinationDataApiUrl, options)
+    const response = await fetch(vaccinationDataApiUrl)
     const data = await response.json()
 
     if (response.ok) {

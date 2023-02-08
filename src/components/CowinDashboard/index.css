@@ -9,7 +9,6 @@
 
 .mainheading {
   width: 95%;
-  max-width: 650px;
   font-size: 25px;
   color: #2cc6c6;
   display: flex;
@@ -23,7 +22,6 @@
 
 .mainpara {
   width: 95%;
-  max-width: 650px;
   color: #cbd5e1;
   font-size: 25px;
 }
